@@ -27,7 +27,6 @@ import datatools.Keyword;
 public class GoSemKrimp {
     ArrayList<Integer> characters; //map from characters to its indices in the dictionary
     int[] frequencies; // the frequencies of the labels in the database
-    //double[] ic; // information content of labels in the dataset
     ArrayList<ArrayList<Event>> data;  // a database of sequences
     ArrayList<ArrayList<Event>> original_data;  // a database of sequences
     ArrayList<MyPattern> patterns; // the set of patterns, the dictionary in this implementation
